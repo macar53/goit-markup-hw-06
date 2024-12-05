@@ -193,6 +193,10 @@ a {
         line-height: 150%;
         letter-spacing: 0.32px;
 }
+
+
+
+
 /*mobile version*/
 @media screen and (min-width: 320px) {
 body, html  {
@@ -1381,6 +1385,9 @@ width: 360px;
             max-width: 356px; 
           }
 }
+
+
+
  @media screen and (min-width: 1157px) {
     
 .address-list {
@@ -1785,6 +1792,36 @@ background-size: cover;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .modal-overlay.is-open{
+        opacity: 0;
+        pointer-events: none;
+    }
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+    /*
+    .modal-overlay.is-open{
+        opacity: 0;
+        pointer-events: none;
+    }
+    */
+    
+    acilir-menu {
+        display: none;
+    }
 
 
 
